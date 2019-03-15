@@ -1,0 +1,13 @@
+1. pertama register User 'http://localhost/latihan/api/public/api/v1/user/register'(POST) terlebih dahulu melalu postman
+    pilih body, form-data isikan name, email, password pilih post lalu 
+    
+2. jika hendak ingin mengisi meeting "http://localhost/latihan/api/public/api/v1/meeting" (POST) pilih param isi dengan key token kemudian value diisi token dari sigin , pilih body form-data isikan title, description, time, user_id
+
+3. untuk sigin 'http://localhost/latihan/api/public/api/v1/user/signin' (POST)
+    pilih body, form-data isikan email dan password pilih post lalu send
+
+
+
+# header pilih accept -> application/json
+
+@@bisa dirubah kebentuk (GET)
